@@ -1,0 +1,50 @@
+.latest-news{
+    background-color: lightgray;
+}
+
+.main-logo{
+    width:100%; 
+    font-size:x-large; 
+    color:red; 
+    font-family: PT Serif, georgia,times,serif; 
+    text-align: center;
+}
+
+.latest-stories{
+    display:flex; 
+    justify-content:center; 
+    align-items:center
+}
+
+.div-news{
+    width: 100%;
+    background-color: lightgray;
+    overflow: hidden;
+}
+.div-news .my-article {
+    width: 20%;
+    margin: 0px 1%;
+    display: inline-block;
+}
+
+.div-news p {
+    font-weight: 200;
+    font-family: Lato;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+.title-class{
+    color:black;
+}
+
+.news-sec{
+    width:20%;
+    float:left;
+}
+ul{
+    list-style-type:none;
+}
