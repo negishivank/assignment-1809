@@ -3,7 +3,7 @@ let newsToDisplay = document.getElementById('newsData');
 
 // Making a get request
 const xhr = new XMLHttpRequest();
-xhr.open('GET', "news-data.json", true);
+xhr.open('GET', "http://localhost:5001/TimesStories", true);
 
 // when the response is ready
 xhr.onload = async function () {
