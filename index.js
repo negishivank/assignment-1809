@@ -1,7 +1,7 @@
 // grabbing the element
 let newsToDisplay = document.getElementById('newsData');
 
-// Making a get request
+// Making a get request from the API
 const xhr = new XMLHttpRequest();
 xhr.open('GET', "http://localhost:5001/TimesStories", true);
 
